@@ -1,0 +1,22 @@
+{
+  "environments": [
+    {
+      "env_id": "env_1",
+      "desc": ["SRRR", "RRRR", "RRWR", "RRRG"],
+      "reward_schedule": [0, -0.1, -1, 1, 10],
+      "complexity": 0.0
+    },
+    {
+      "env_id": "env_2",
+      "desc": ["SVVR", "RRRV", "RBWR", "RBRG"],
+      "reward_schedule": [0, -0.1, -1, 1, 10],
+      "complexity": 0.5
+    },
+    {
+      "env_id": "env_3",
+      "desc": ["SBVR", "RVVB", "BBWV", "RBVG"],
+      "reward_schedule": [0, 0, -0.1, -1, 1, 10],
+      "complexity": 0.7
+    }
+  ]
+}
