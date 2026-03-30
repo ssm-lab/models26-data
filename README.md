@@ -7,3 +7,8 @@ Virtual training environments are software-intensive systems in which reinforcem
 To obtain the family of environments, we develop an approach and prototype tool. In our approach, a hybrid genetic algorithm---a combination of population-based global search and heuristic local search---generates environment families. Mutations and constraints are expressed as model transformations and are operationalized into a search process by a state-of-the-art model transformation engine.
 We demonstrate the soundness of our approach in a wildfire mitigation scenario and curriculum learning---a particular learning paradigm that relies on environment families.
 
+## Content description
+- `01-configurations` - Contains the generated environment configurations.
+- `02-train-data` - Contains trained agents' data.
+- `03-scripts` - Contains Python analysis scripts to obtain the results in the 04-results folder.
+- `04-results`- Contains the plots and visualization that are used in the publication.
